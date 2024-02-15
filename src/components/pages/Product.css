@@ -1,0 +1,28 @@
+.product-container {
+  background-image: url("/src/images/img-3.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-image {
+  width: 100%;
+  max-width: 1200px; /* Adjust the max-width as needed */
+  height: 400px; /* Set the desired height */
+  margin-top: 10px;
+}
+
+.product-heading {
+  margin-top: 20px; /* Add margin to separate the heading from the image */
+  color: rgb(30, 149, 200); /* Set the color to red */
+}
+
+.productss {
+  background-position: center;
+  background-size: cover; /* Change to cover for a better fit */
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 32px; /* Adjust font size as needed */
+  padding: 50px; /* Add padding for better spacing */
+}
